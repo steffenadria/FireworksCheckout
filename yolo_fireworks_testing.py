@@ -16,12 +16,12 @@ CLASSES = [
 
 # Load the YOLO model using the training from my final training set
 model = YOLO(
-    r"C:\Users\Owner\VideosProject\VideoPython\best.pt",
+    r"Weights/best.pt",
     task="obb"  # Oriented bounding box mode
 )
 
 # Folder containing test images
-IMAGE_FOLDER = r"C:\Users\Owner\VideosProject\VideoPython"
+IMAGE_FOLDER = r"Testing Images"
 
 # Get all image file paths from the folder
 image_files = [

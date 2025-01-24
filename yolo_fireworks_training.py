@@ -89,7 +89,7 @@ def train_with_static_groups(output_dir, train_groups, val_groups, model_weights
 
 if __name__ == "__main__":
     #Paths
-    BASE_DIR = r"Images"
+    BASE_DIR = r"Training Images"
     OUTPUT_DIR = r"ProgressiveValidationResults"
     MODEL_WEIGHTS = "yolo11x-obb.pt"
 
